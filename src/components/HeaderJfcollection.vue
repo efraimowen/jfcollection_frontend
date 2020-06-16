@@ -8,7 +8,7 @@
             <i class="fa fa-envelope"></i> hello.jfcollection@gmail.com
           </div>
           <div class="phone-service">
-            <i class="fa fa-phone"></i> +628 00000000
+            <i class="fa fa-phone"></i> Your phone number
           </div>
         </div>
       </div>
