@@ -5,10 +5,50 @@
       <div class="container">
         <div class="ht-left">
           <div class="mail-service">
-            <i class="fa fa-envelope"></i> hello.jfcollection@gmail.com
+            <i class="fa fa-envelope"></i> Your Email
           </div>
           <div class="phone-service">
             <i class="fa fa-phone"></i> Your phone number
+          </div>
+          <div class="category">
+            <li class="dropdown">
+              <a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="true">
+                Kategori
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu dropdown">
+                <li>
+                  <a href="/product/c/all" tabindex="-1">All</a>
+                </li>
+                <li>
+                  <a href="#" tabindex="-1">ACC/Aksesoris</a>
+                </li>
+                <li>
+                  <a href="#" tabindex="-1">Headset</a>
+                </li>
+                <li>
+                  <a href="#" tabindex="-1">Powerbank</a>
+                </li>
+                <li>
+                  <a href="#" tabindex="-1">Barang Unik</a>
+                </li>
+                <li>
+                  <a href="#" tabindex="-1">Elektronik</a>
+                </li>
+                <li>
+                  <a href="#" tabindex="-1">Alat Kecantikan</a>
+                </li>
+                <li>
+                  <a href="#" tabindex="-1">Alat Rumah Tangga</a>
+                </li>
+                <li>
+                  <a href="#" tabindex="-1">Alat Kesehatan</a>
+                </li>
+                <li>
+                  <a href="#" tabindex="-1">Speaker</a>
+                </li>
+              </ul>
+            </li>
           </div>
         </div>
       </div>
@@ -18,9 +58,9 @@
         <div class="row">
           <div class="col-lg-2 col-md-2">
             <div class="logo">
-              <a href="./index.html">
-                <img src="img/logo_website_shayna.png" alt />
-              </a>
+              <router-link to="./">
+                <img src="img/Logo-Header.png" alt />
+              </router-link>
             </div>
           </div>
           <div class="col-lg-7 col-md-7"></div>
@@ -72,7 +112,7 @@
                     <h5>$120.00</h5>
                   </div>
                   <div class="select-button">
-                    <a href="#" class="primary-btn view-card">VIEW CARD</a>
+                    <router-link to="/cart" class="primary-btn view-card">VIEW CARD</router-link>
                     <a href="#" class="primary-btn checkout-btn">CHECK OUT</a>
                   </div>
                 </div>
@@ -88,6 +128,6 @@
 
 <script>
 export default {
-    name: 'HeaderJfcollection'
-}
+  name: "HeaderJfcollection"
+};
 </script>
